@@ -5,6 +5,7 @@ const navLinks = [
   { label: "Haqimda", href: "#about" },
   { label: "Ko'nikmalar", href: "#skills" },
   { label: "Loyihalar", href: "#projects" },
+  { label: "Kanallar", href: "#community" },
   { label: "Tajriba", href: "#experience" },
   { label: "Bog'lanish", href: "#contact" },
 ];

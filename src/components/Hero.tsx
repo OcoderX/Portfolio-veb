@@ -3,8 +3,13 @@ import { useEffect, useState } from "react";
 const roles = [
   "Python Telegram Bot Developer",
   "Django Developer",
-  "Kiberxavfsizlikni o'rganuvchi",
-  "Sun'iy intellekt yo'nalishi",
+  "OcoderX community manager",
+  "Kiberxavfsizlik mutaxassisi",
+  "Sun'iy intellekt mutaxassisi",
+  "Sun'iy intellekt o'qitish",
+  "Mexatronika va robototexnika mutaxassisi",
+  "IoT mutaxassisi",
+  
 ];
 
 export default function Hero() {
@@ -47,7 +52,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
     >
       {/* Background */}
       <div
@@ -81,7 +86,7 @@ export default function Hero() {
 
         {/* Name */}
         <h1
-          className={`text-5xl md:text-7xl lg:text-8xl font-black text-white mb-4 leading-tight transition-all duration-700 delay-200 ${
+          className={`text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight transition-all duration-700 delay-200 ${
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
@@ -93,15 +98,19 @@ export default function Hero() {
 
         {/* Typewriter */}
         <div
-          className={`flex items-center justify-center gap-3 mb-6 transition-all duration-700 delay-300 ${
+          className={`grid grid-cols-2 gap-3 mb-8 transition-all duration-700 delay-300 ${
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <span className="text-2xl md:text-4xl font-light text-slate-400">Men —</span>
-          <span className="text-2xl md:text-4xl font-bold text-white font-mono min-w-[280px] md:min-w-[400px] text-left">
-            {displayed}
-            <span className="animate-pulse text-violet-400">|</span>
-          </span>
+          <div className="text-right">
+            <span className="text-2xl md:text-4xl font-light text-slate-400">Men —</span>
+          </div>
+          <div className="text-left">
+            <span className="text-2xl md:text-4xl font-bold text-white font-mono">
+              {displayed}
+              <span className="animate-pulse text-violet-400">|</span>
+            </span>
+          </div>
         </div>
 
         {/* Description */}
@@ -111,6 +120,7 @@ export default function Hero() {
           }`}
         >
           Python Telegram botlar va Django asosida web ilovalar yarataman.
+          2022-2025-yillarda TATU talabalari uchun yirik Telegram kanallarini yuritganman.
           Hozir TypeScript bilan sayt tuzishni, kiberxavfsizlik asoslarini va
           sun'iy intellekt yo'nalishini chuqurroq o'rganyapman.
         </p>
@@ -146,8 +156,8 @@ export default function Hero() {
         >
           {[
             { value: "Bot", label: "Python Telegram" },
-            { value: "Web", label: "Django" },
-            { value: "AI", label: "Diplom sohasi" },
+            { value: "TATU", label: "Community" },
+            { value: "2K+", label: "OcoderX kanali" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent">

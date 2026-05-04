@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 const About = lazy(() => import("./components/About"));
 const Skills = lazy(() => import("./components/Skills"));
 const Projects = lazy(() => import("./components/Projects"));
+const Community = lazy(() => import("./components/Community"));
 const Experience = lazy(() => import("./components/Experience"));
 const Contact = lazy(() => import("./components/Contact"));
 const Footer = lazy(() => import("./components/Footer"));
@@ -25,6 +26,7 @@ export default function App() {
         <About />
         <Skills />
         <Projects />
+        <Community />
         <Experience />
         <Contact />
         <Footer />

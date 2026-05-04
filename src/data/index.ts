@@ -3,6 +3,7 @@ export const navLinks = [
   { label: "Haqimda", href: "#about" },
   { label: "Ko'nikmalar", href: "#skills" },
   { label: "Loyihalar", href: "#projects" },
+  { label: "Kanallar", href: "#community" },
   { label: "Tajriba", href: "#experience" },
   { label: "Bog'lanish", href: "#contact" },
 ];
@@ -10,6 +11,8 @@ export const navLinks = [
 export const roles = [
   "Python Telegram Bot Developer",
   "Django Developer",
+  "Telegram community manager",
+  "OcoderX",
   "Kiberxavfsizlikni o'rganuvchi",
   "Sun'iy intellekt yo'nalishi",
 ];
@@ -55,6 +58,25 @@ export const experiences = [
   },
   {
     id: 3,
+    role: "Telegram community manager",
+    company: "TATU kanallari: @tatuda, @tatu_baza, TATU1K",
+    period: "2022 - 2025",
+    duration: "3 yil",
+    type: "Community",
+    description:
+      "TATU talabalari orasida OcoderX nomi bilan tanilib, universitetga oid katta Telegram kanallarini yuritganman.",
+    achievements: [
+      "TATUga Aloqador, TATU BAZA va TATU1K kabi kanallarda talabalar uchun foydali kontent ulashganman",
+      "Yangiliklar, bazalar, quiz havolalari va talabalar hayotiga oid postlarni tartibli boshqarganman",
+      "Kitoblardan ma'noli joylar va iqtiboslar beriladigan tarjima kanallarini ham yuritganman",
+    ],
+    tech: ["Telegram", "Community", "Content", "TATU", "OcoderX"],
+    color: "border-cyan-500",
+    dot: "bg-cyan-500",
+    icon: "TG",
+  },
+  {
+    id: 4,
     role: "Python Telegram Bot Developer",
     company: "Shaxsiy va o'quv loyihalar",
     period: "2023 - Hozir",
@@ -73,7 +95,7 @@ export const experiences = [
     icon: "PY",
   },
   {
-    id: 4,
+    id: 5,
     role: "Django Developer",
     company: "O'quv loyihalar",
     period: "2023 - Hozir",
@@ -92,7 +114,7 @@ export const experiences = [
     icon: "DJ",
   },
   {
-    id: 5,
+    id: 6,
     role: "Bakalavr - SI/Mexatronika va robototexnika",
     company: "Toshkent axborot texnologiyalari universiteti",
     period: "2021 - 2025-yil iyun",
@@ -111,7 +133,7 @@ export const experiences = [
     icon: "AI",
   },
   {
-    id: 6,
+    id: 7,
     role: "Kiberxavfsizlik asoslari",
     company: "Mustaqil o'rganish",
     period: "Hozir",
@@ -146,6 +168,8 @@ export const education = [
 
 export const certificates = [
   { name: "GitHub portfolio (7 repo)", issuer: "github.com/OcoderX", level: "Faol" },
+  { name: "TATU Telegram community", issuer: "@tatuda, @tatu_baza, TATU1K", level: "2022-2025" },
+  { name: "OcoderX kanali", issuer: "t.me/ocoderxs", level: "2K+ obunachi" },
   { name: "Telegram bot development", issuer: "UniconSoft/Anonim/RealMadrid", level: "Kuchli" },
   { name: "Excel automation", issuer: "UniconSoft_Hujjatlar_monitoringi", level: "Yaxshi" },
   { name: "REST API va DB ishlari", issuer: "Amaliy loyiha", level: "Yaxshi" },

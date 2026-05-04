@@ -78,7 +78,10 @@ export default function About() {
               2021-yilda Toshkent axborot texnologiyalari universitetida bakalavrni
               boshlaganman va 2025-yil iyunda bitirganman. Sun'iy intellekt
               kafedrasida SI/Mexatronika va robototexnika yo'nalishida o'qiganman.
-              2025-yilda Andijonda Saroy ziynati MCHJ buxgalteriyasida ishlaganman.
+              2022-2025-yillarda TATU talabalari orasida OcoderX nomi bilan tanilib,
+              TATUga Aloqador, TATU BAZA va TATU1K kabi Telegram kanallarini
+              yuritganman. Kitoblardan ma'noli iqtiboslar beriladigan tarjima
+              kanallarida ham kontent qilganman. 2025-yilda Andijonda Saroy ziynati MCHJ buxgalteriyasida ishlaganman.
               2026-yil 1-yanvardan hozirgacha Uniconsoft MCHJda ish tajribamni
               oshiryapman. Qiziqishlarim: kiberxavfsizlik asoslari, sun'iy intellekt,
               mexatronika va robototexnika.
@@ -91,7 +94,8 @@ export default function About() {
                 { label: "Ta'lim", value: "TATU, 2021-2025" },
                 { label: "Yo'nalish", value: "SI/Mexatronika va robototexnika" },
                 { label: "Hozirgi ish joyi", value: "Uniconsoft MCHJ" },
-                { label: "Oldingi tajriba", value: "Saroy ziynati MCHJ" },
+                { label: "Community", value: "TATU kanallari, 2022-2025" },
+                { label: "Nickname", value: "OcoderX" },
                 { label: "Asosiy yo'nalish", value: "Python Telegram bot, Django" },
               ].map((item) => (
                 <div key={item.label} className="bg-slate-800/50 rounded-xl p-3 border border-white/5">

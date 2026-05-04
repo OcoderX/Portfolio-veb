@@ -16,10 +16,10 @@ export default function Footer() {
 
           {/* Links */}
           <div className="flex flex-wrap justify-center gap-6 text-sm text-slate-500">
-            {["Bosh sahifa", "Haqimda", "Ko'nikmalar", "Loyihalar", "Bog'lanish"].map((item) => (
+            {["Bosh sahifa", "Haqimda", "Ko'nikmalar", "Loyihalar", "Kanallar", "Bog'lanish"].map((item) => (
               <a
                 key={item}
-                href={`#${item === "Bosh sahifa" ? "home" : item === "Haqimda" ? "about" : item === "Ko'nikmalar" ? "skills" : item === "Loyihalar" ? "projects" : "contact"}`}
+                href={`#${item === "Bosh sahifa" ? "home" : item === "Haqimda" ? "about" : item === "Ko'nikmalar" ? "skills" : item === "Loyihalar" ? "projects" : item === "Kanallar" ? "community" : "contact"}`}
                 className="hover:text-violet-400 transition-colors"
               >
                 {item}
